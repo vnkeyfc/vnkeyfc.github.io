@@ -100,8 +100,10 @@ var data = [
 		bien_tap: 100,
 		ki_thuat: 100,
 		mi_thuat: 100,
-		trang_thai: 1,
-		cap_nhat_lan_cuoi: "7/2024",
+		trang_thai: 0,
+		link_patch:
+			"https://vnkeyfc.com/resource/patch/harmonia-viet-hoa/",
+		cap_nhat_lan_cuoi: "23/7/2024",
 	},
 	{
 		hinh_anh: "./images/planetarian_snow_globe.png",
