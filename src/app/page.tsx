@@ -20,7 +20,7 @@ export default function Home() {
               {data.map((item, index) => (
                 <div
                   key={index}
-                  className="card card-compact w-40 sm:w-48 md:w-60 lg:w-64 xl:w-68 bg-base-100 shadow-xl m-2 md:m-4"
+                  className="card card-compact w-40 sm:w-48 md:w-60 lg:w-64 xl:w-68 bg-base-100 shadow-xl m-2 md:m-4 backdrop-blur-sm bg-white/30"
                 >
                   <ImageCover {...item} />
                   <div className="card-body !p-3">
@@ -76,13 +76,19 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="text-center">
-                      <ProjectStatus
-                        trangThai={item.trang_thai}
-                        link_patch={item.link_patch}
-                      />
-                      <span className="text-center text-xs">
+                      <div className="text-center text-xs mb-2">
                         Cập nhật lần cuối: {item.cap_nhat_lan_cuoi}
-                      </span>
+                      </div>
+                      <div className="flex justify-between">
+                        <button className="hidden md:block btn btn-outline btn-sm rounded-lg mr-2">
+                          <a href={item.vndb}>VNDB</a>
+                        </button>
+
+                        <ProjectStatus
+                          trangThai={item.trang_thai}
+                          link_patch={item.link_patch}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -99,7 +105,7 @@ export default function Home() {
               {otherData.map((item, index) => (
                 <div
                   key={index}
-                  className="card card-compact w-40 sm:w-48 md:w-60 lg:w-64 xl:w-68 bg-base-100 shadow-xl m-2 md:m-4"
+                  className="card card-compact w-40 sm:w-48 md:w-60 lg:w-64 xl:w-68 bg-base-100 shadow-xl m-2 md:m-4 backdrop-blur-sm bg-white/30"
                 >
                   <ImageCover {...item} />
                   <div className="card-body !p-3">
@@ -109,7 +115,11 @@ export default function Home() {
                     <span className="text-center text-base italic">
                       Nhóm dịch: {item.nhom}
                     </span>
-                    <div className="text-center">
+                    <div className="flex justify-between">
+                      <button className="hidden md:block btn btn-outline btn-sm rounded-lg mr-2">
+                        <a href={item.vndb}>VNDB</a>
+                      </button>
+
                       <ProjectStatus
                         trangThai={item.trang_thai}
                         link_patch={item.link_patch}

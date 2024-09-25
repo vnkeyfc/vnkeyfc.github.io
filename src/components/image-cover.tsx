@@ -7,7 +7,7 @@ export default function ImageCover(item: DuAn) {
     <div className="group rounded-t-2xl relative overflow-hidden transition-shadow hover:shadow-xl hover:shadow-green-300/20">
       <div className="aspect-[9/13]">
         <Image
-          className="h-full w-full rounded-t-2xl object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+          className="h-full w-full rounded-t-2xl object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-[1.15]"
           src={item.hinh_anh}
           alt={item.ten}
           width={720}
@@ -20,7 +20,7 @@ export default function ImageCover(item: DuAn) {
           <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center text-center transition-all duration-500 group-hover:translate-y-0">
             <a
               href={item.link_patch}
-              className="rounded-full bg-green-400 px-3.5 py-2 font-com text-sm capitalize text-black font-semibold shadow shadow-black/60"
+              className="btn btn-sm btn-success shadow shadow-black/60"
             >
               Link patch
             </a>
