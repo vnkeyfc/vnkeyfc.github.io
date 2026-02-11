@@ -35,12 +35,12 @@ export const data: DuAnChinh[] = [
   {
     hinh_anh: "/cover/AIR.png",
     ten: "AIR",
-    dich_thuat: 5,
+    dich_thuat: 100,
     bien_tap: 0,
     ki_thuat: 50,
     mi_thuat: 0,
     trang_thai: TrangThai.Dang_thuc_hien,
-    cap_nhat_lan_cuoi: "4/2023",
+    cap_nhat_lan_cuoi: "11/2/2026",
     vndb: "https://vndb.org/v36",
   },
   {
