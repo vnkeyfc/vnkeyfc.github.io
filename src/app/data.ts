@@ -109,8 +109,8 @@ export const data: DuAnChinh[] = [
     bien_tap: 0,
     ki_thuat: 90,
     mi_thuat: 90,
-    trang_thai: TrangThai.Tam_dung,
-    cap_nhat_lan_cuoi: "15/7/2023",
+    trang_thai: TrangThai.Hoan_vo_thoi_han,
+    cap_nhat_lan_cuoi: "19/05/2026",
     vndb: "https://vndb.org/r85393",
   },
   {
@@ -120,8 +120,8 @@ export const data: DuAnChinh[] = [
     bien_tap: 10,
     ki_thuat: 80,
     mi_thuat: 10,
-    trang_thai: TrangThai.Tam_dung,
-    cap_nhat_lan_cuoi: "4/2023",
+    trang_thai: TrangThai.Hoan_vo_thoi_han,
+    cap_nhat_lan_cuoi: "19/05/2026",
     vndb: "https://vndb.org/v13774",
   },
   {
@@ -147,6 +147,17 @@ export const data: DuAnChinh[] = [
     link_patch:
       "https://vnkeyfc.com/resource/patch/planetarian-qua-cau-tuyet-viet-hoa/",
     cap_nhat_lan_cuoi: "24/12/2022",
+    vndb: "https://vndb.org/v27747",
+  },
+  {
+    hinh_anh: "/cover/planetarian_snow_globe.png",
+    ten: "planetarian — Quả cầu tuyết (bản Steam)",
+    dich_thuat: 100,
+    bien_tap: 80,
+    ki_thuat: 50,
+    mi_thuat: 50,
+    trang_thai: TrangThai.Dang_thuc_hien,
+    cap_nhat_lan_cuoi: "19/05/2026",
     vndb: "https://vndb.org/v27747",
   },
   {
