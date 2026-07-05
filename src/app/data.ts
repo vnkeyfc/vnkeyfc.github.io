@@ -154,10 +154,10 @@ export const data: DuAnChinh[] = [
     ten: "planetarian — Quả cầu tuyết (bản Steam)",
     dich_thuat: 100,
     bien_tap: 100,
-    ki_thuat: 50,
-    mi_thuat: 70,
+    ki_thuat: 99,
+    mi_thuat: 100,
     trang_thai: TrangThai.Dang_thuc_hien,
-    cap_nhat_lan_cuoi: "27/05/2026",
+    cap_nhat_lan_cuoi: "05/07/2026",
     vndb: "https://vndb.org/v27747",
   },
   {
