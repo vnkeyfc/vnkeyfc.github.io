@@ -143,8 +143,10 @@ export const data: DuAnChinh[] = [
     bien_tap: 100,
     ki_thuat: 100,
     mi_thuat: 100,
-    trang_thai: TrangThai.Dang_thuc_hien,
-    cap_nhat_lan_cuoi: "10/07/2026",
+    trang_thai: TrangThai.Hoan_thanh,
+    link_patch:
+      "https://vnkeyfc.com/resource/patch/planetarian-qua-cau-tuyet-viet-hoa/",
+    cap_nhat_lan_cuoi: "11/07/2026",
     vndb: "https://vndb.org/v27747",
   },
   {
